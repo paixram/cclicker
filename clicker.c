@@ -46,7 +46,7 @@ int main() {
     handler = CreateThread(NULL, 0, CheckKeyState, 0, 0, &id);
 
 
-    // crear evento del teclado
+    // crear evento del mouse
     mouseinput.type = INPUT_MOUSE;
     mouseinput.mi.dwFlags = 0x0002;
     mouseinput.mi.time = 0;
